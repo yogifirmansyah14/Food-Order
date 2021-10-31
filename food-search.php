@@ -6,7 +6,7 @@
 
         <?php
           // Get the seacrh keyword
-          $search = $_POST['search'];  
+          $search = mysqli_real_escape_string($conn, $_POST['search']);  
         ?>
             
             <h2>Foods on Your Search <a href="#" class="text-white"><?php echo $search; ?></a></h2>
@@ -24,7 +24,7 @@
 
             <?php 
                 // Get the seacrh keyword
-                $search = $_POST['search'];
+                // $search = $_POST['search'];
 
                 // SQL query to get foods based on search keyword
                 $sql = "SELECT * FROM tbl_food WHERE title LIKE '%$search%' OR description LIKE '%$search%'";
