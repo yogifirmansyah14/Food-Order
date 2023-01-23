@@ -1,4 +1,4 @@
-<?php include('partials-front/menu.php'); ?>
+<?php include('partials/menu.php'); ?>
 
     <!-- fOOD sEARCH Section Starts Here -->
     <section class="food-search text-center">
@@ -54,7 +54,7 @@
                                 } else {
                                     // Image available
                                     ?>
-                                        <img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                                        <img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Chicke Hawain Pizza" class="img-responsive img-curve" style="height: 60px;">
                                     <?php
                                 }
                             ?>
@@ -88,4 +88,4 @@
     </section>
     <!-- fOOD Menu Section Ends Here -->
 
-<?php include('partials-front/footer.php'); ?>
+<?php include('partials/footer.php'); ?>

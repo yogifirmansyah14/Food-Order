@@ -1,4 +1,4 @@
-<?php include('partials-front/menu.php'); ?>
+<?php include('partials/menu.php'); ?>
 
     <!-- CAtegories Section Starts Here -->
     <section class="categories">
@@ -27,7 +27,7 @@
                                         }
                                         else{
                                             ?>
-                                            <img src="<?php echo SITEURL; ?>images/category/<?php echo $image_name; ?>" class="img-responsive img-curve">
+                                            <img src="<?php echo SITEURL; ?>images/category/<?php echo $image_name; ?>" class="img-responsive img-curve" style="height: 200px;">
                                             <?php 
                                         }
                                     ?>
@@ -47,4 +47,4 @@
     </section>
     <!-- Categories Section Ends Here -->
 
-<?php include('partials-front/footer.php'); ?>
+<?php include('partials/footer.php'); ?>

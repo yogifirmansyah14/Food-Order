@@ -1,4 +1,4 @@
-<?php include('partials-front/menu.php'); ?>
+<?php include('partials/menu.php'); ?>
 
     <?php 
         // Check whether id is passed or not
@@ -107,4 +107,4 @@
     </section>
     <!-- fOOD Menu Section Ends Here -->
 
-<?php include('partials-front/footer.php'); ?>
+<?php include('partials/footer.php'); ?>

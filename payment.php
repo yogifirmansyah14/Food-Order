@@ -1,4 +1,4 @@
-<?php include('partials-front/menu.php'); ?>
+<?php include('partials/menu.php'); ?>
     
     <?php
         // get customer_name from url
@@ -42,7 +42,7 @@
                     <div class="order-label">Payment Proof</div>
                     <input type="file" name="proof" class="input-responsive" required>
 
-                    <button class="btn btn-primary" name="submit">Submit</button>
+                    <button class="btn btn-primary" name="submit" type="submit">Submit</button>
                 </form>
 
 
@@ -112,4 +112,4 @@
         </div>
     </section>
     <!-- fOOD sEARCH Section Ends Here -->
-<?php include('partials-front/footer.php'); ?>
+<?php include('partials/footer.php'); ?>

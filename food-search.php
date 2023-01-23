@@ -1,4 +1,4 @@
-<?php include('partials-front/menu.php'); ?>
+<?php include('partials/menu.php'); ?>
 
     <!-- fOOD sEARCH Section Starts Here -->
     <section class="food-search text-center">
@@ -6,7 +6,7 @@
 
         <?php
           // Get the seacrh keyword
-          $search = mysqli_real_escape_string($conn, $_POST['search']);  
+          $search = mysqli_real_escape_string($conn, $_POST['search']);
         ?>
             
             <h2>Foods on Your Search <a href="#" class="text-white"><?php echo $search; ?></a></h2>
@@ -91,4 +91,4 @@
     </section>
     <!-- fOOD Menu Section Ends Here -->
 
-<?php include('partials-front/footer.php'); ?>
+<?php include('partials/footer.php'); ?>

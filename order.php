@@ -1,4 +1,4 @@
-<?php include('partials-front/menu.php'); ?>
+<?php include('partials/menu.php'); ?>
 
     <?php
         // Check whether food id is set or not
@@ -149,4 +149,4 @@
     <!-- fOOD sEARCH Section Ends Here -->
 
 
-<?php include('partials-front/footer.php'); ?>
+<?php include('partials/footer.php'); ?>
